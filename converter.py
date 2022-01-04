@@ -1,5 +1,3 @@
-# uploaded at Jan.04. 2022.
-
 # if python-ffmpeg is installed, it might makes issues
 # pip install ffmpeg-python
 import ffmpeg
@@ -42,4 +40,8 @@ for i in file_list:
     # target the typical files that end with mp4
     if i.endswith(original_format) == True:
         convert_video(i, frame_rate=30, format='avi')
+        
+# hello
 
+# what is 
+print("this is for the test")
