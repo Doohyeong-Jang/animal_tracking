@@ -42,3 +42,4 @@ for i in file_list:
     # target the typical files that end with mp4
     if i.endswith(original_format) == True:
         convert_video(i, frame_rate=30, format='avi')
+
