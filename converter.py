@@ -30,7 +30,6 @@ def convert_video(raw_video, frame_rate=30, format='avi'):
         raise e        
 
 
-
 os.chdir(path)
 
 # show the file list in the paths
