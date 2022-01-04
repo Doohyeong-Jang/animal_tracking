@@ -1,3 +1,5 @@
+# uploaded at Jan.04. 2022.
+
 # if python-ffmpeg is installed, it might makes issues
 # pip install ffmpeg-python
 import ffmpeg
@@ -26,7 +28,6 @@ def convert_video(raw_video, frame_rate=30, format='avi'):
         print('stdout:', e.stdout.decode('utf8'))
         print('stderr:', e.stderr.decode('utf8'))
         raise e        
-
 
 
 os.chdir(path)
