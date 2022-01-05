@@ -1,7 +1,9 @@
 # created Sep.19. 2020
 # updated Jan.05. 2022
 
-# if python-ffmpeg is installed, it might makes issues
+# if python-ffmpeg is installed, it makes issues.
+# also, using ffmpeg requires the file existed in the same folder
+
 # pip install ffmpeg-python
 import ffmpeg
 import os
@@ -43,10 +45,3 @@ for i in file_list:
     # target the typical files that end with mp4
     if i.endswith(original_format) == True:
         convert_video(i, frame_rate=30, format='avi')
-        
-# hello
-
-# what is 
-print("this is for the test")
-
-print("test3")
