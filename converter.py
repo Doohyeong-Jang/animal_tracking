@@ -1,3 +1,6 @@
+# created Sep.19. 2020
+# updated Jan.05. 2022
+
 # if python-ffmpeg is installed, it might makes issues
 # pip install ffmpeg-python
 import ffmpeg
